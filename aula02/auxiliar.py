@@ -85,8 +85,8 @@ def to_hsv(html_color):
 def ranges(value):
     hsv = to_hsv(value)
     hsv2 = np.copy(hsv)
-    hsv[0] = max(0, hsv[0]-20)
-    hsv2[0] = min(180, hsv[0]+ 20)
+    hsv[0] = max(0, hsv[0]-15)
+    hsv2[0] = min(180, hsv[0]+ 15)
     hsv[1:] = 50
     hsv2[1:] = 255
     return hsv, hsv2 
