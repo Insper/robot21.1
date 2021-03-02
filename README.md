@@ -1,6 +1,10 @@
 # Robótica Computacional 2021 1.o semestre
 
-[Atividade 1 - Imagens e modelos de cores](./aula01)
+
+[Aula 1 - Imagens e modelos de cores](./aula01)
+[APS da aula 1 https://github.com/insper-classroom/221_robot_aps1](https://github.com/insper-classroom/221_robot_aps1)
+[Aula 2 - HSV, contornos e filtragem linear](./aula02)
+
 
 ## Projetos antigos
 
