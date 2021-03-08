@@ -60,7 +60,7 @@ Para instalar a OpenCV e Jupyter
 
 Você também vai precisar instalar os softwares básicos para trabalhar:
 
-    conda install matplotlib
+    conda install -c conda-forge matplotlib
     
 
 Para sair do ambiente **robotica** e voltar para seu 
