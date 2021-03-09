@@ -1,3 +1,4 @@
 yellow.mp4 filter=lfs diff=lfs merge=lfs -text
 *mp4 filter=lfs diff=lfs merge=lfs -text
 cow_wolf.mp4 filter=lfs diff=lfs merge=lfs -text
+line_following.mp4 filter=lfs diff=lfs merge=lfs -text
