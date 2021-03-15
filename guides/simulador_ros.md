@@ -76,6 +76,7 @@ Exemplo de como deve estar o arquivo. **Certifique-se** de que as variáveis `RO
 
 Tentar ver se o simulador do robô funciona:
 
+    export TURTLEBOT3_MODEL=waffle_pi
     roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 É comum que na primeira vez que se executa o simulador haja demora para este abrir porque os modelos 3D estão sendo baixados. Seu computador precisa ter acesso à internet para funcionar.
@@ -93,6 +94,7 @@ De permissão para executar com os comandos a seguir;
 
 Podemos trocar o cenário mudando o `launch` file. Este abre com o robô em uma casa
     
+    export TURTLEBOT3_MODEL=waffle_pi
     roslaunch turtlebot3_gazebo turtlebot3_house.launch
 
 
@@ -110,7 +112,9 @@ Neste ponto sua tela deve estar parecida com a figura abaixo:
 
 
 
-**Nota:** No simulador aconselhamos usar `export TURTLEBOT3_MODEL=waffle_pi`, mas para o robô físico é necessário ter `export TURTLEBOT3_MODEL=burger` . Esta sugestão é porque o *burger* simulado não tem câmera, e o *Waffle_Pi* tem. 
+**Nota:** Quando usar cenários padrão do Turbletbot aconselhamos a usar `export TURTLEBOT3_MODEL=waffle_pi`, mas para o robô físico é necessário ter `export TURTLEBOT3_MODEL=burger` . Esta sugestão é porque o *burger* simulado não tem câmera, e o *Waffle_Pi* tem. 
+
+Quando forem cenários customizados pelo Insper e o robô com garrinha o `burger` vai ter câmera
 
 ## Explorando as ferramentas do ROS
 
