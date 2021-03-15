@@ -35,17 +35,34 @@ Digite apenas os seguintes comandos:
 
 Abra seu .bashrc e comente (colocando um caracter `#`) as linhas que definem as variáveis `ROS_IP` e `ROS_MASTER_URI`. Salve em seguida
 
-Você pode editar usando o sublime:
+Você pode editar usando o VS Code:
 
     cd ~
-    subl .bashrc
+    code .bashrc
+    
+No nosso arquivo encontramos (perto do final) a seguinte linha:
 
-Exemplo de como ficou o arquivo:
+    source ~/robotica.sh   
 
-    export IPBerry=192.168.0.110
-    # export ROS_MASTER_URI="http://"$IPBerry":11311"
-    # export ROS_IP=`hostname -I`
-    export TURTLEBOT3_MODEL=waffle_pi
+Isso é sinal que as configurações de Robótica estão num arquivo separado chamado `robotica.sh`. Vamos a ele:
+
+    code robotica.sh
+
+Exemplo de como deve estar o arquivo. **Certifique-se** de que as variáveis `ROS_MASTER_URI` e `ROS_IP` estão desabilitadas. Estas variáveis são úteis somente quando trabalhamos com o robô real:
+
+
+    #############
+    # Robotica  #
+    #############
+
+    export IPBerry=192.168.50.250
+    # CANCELE  com # as linhas ROS_MASTER_URI  e ROS_IP se estiver usando com Gazebo, Sphinx ou Bebop
+    #export ROS_MASTER_URI="http://"$IPBerry":11311" 
+    #export ROS_IP=`hostname -I`
+
+    #escolha qual o modelo robo sera usado no simulador
+    export TURTLEBOT3_MODEL=burger 
+
     
  Feche o terminal e abara um novo para carregar as alterações.
 
@@ -55,7 +72,6 @@ Exemplo de como ficou o arquivo:
 
 Tentar ver se o simulador do robô funciona:
 
-    export TURTLEBOT3_MODEL=waffle_pi
     roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 É comum que na primeira vez que se executa o simulador haja demora para este abrir porque os modelos 3D estão sendo baixados. Seu computador precisa ter acesso à internet para funcionar.
@@ -64,16 +80,15 @@ O script `simulador_turtle.sh` já contém estes comandos, para conveniência.
 
 De permissão para executar com os comandos a seguir;
 
-    cd ~/catkin_ws/src/robot19/guides
+    cd ~/catkin_ws/src/robot21.1/guides
     chmod +x simulador_turtle.sh
     ./simulador_turtle.sh
 
 
 ### Mudando o cenário
 
-Podemos trocar o cenário mudando o `launch` file. Este abre com o robô em uma cas
-
-    export TURTLEBOT3_MODEL=waffle_pi
+Podemos trocar o cenário mudando o `launch` file. Este abre com o robô em uma casa
+    
     roslaunch turtlebot3_gazebo turtlebot3_house.launch
 
 
