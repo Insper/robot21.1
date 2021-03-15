@@ -26,6 +26,10 @@ Vamos nos certificar de que já temos os softwares do `Turtlebot` (só precisa s
 
 ## Se você usa o Linux fornecido pelo laboratório, faça a etapa a seguir
 
+Instale este pacote:
+
+    sudo apt install ros-noetic-turtlebot3-simulations
+
 Digite apenas os seguintes comandos:
 
     cd ~/catkin_ws
