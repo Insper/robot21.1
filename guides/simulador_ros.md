@@ -10,7 +10,7 @@ Abra um terminal. Dica: `Ctrl` `Alt` `T` abre terminais no Ubuntu
 
 Vamos os certificar de que temos alguns softwares essenciais para o Turtlebot 3:
 
-    sudo apt install ros-melodic-turtlebot3-msgs ros-melodic-ar-track-alvar ros-melodic-turtlebot3-applications-msgs
+    sudo apt install ros-noetic-turtlebot3-msgs  ros-noetic-turtlebot3-applications-msgs
 
 
 Vamos nos certificar de que já temos os softwares do `Turtlebot` (só precisa ser feito uma vez):
