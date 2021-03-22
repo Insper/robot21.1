@@ -4,7 +4,7 @@ Para abrir o `Anydesk` digite no terminal:
 
     anydesk
 
-Veridique qual é o ID de seu computador. Se ele começar com `684626` por favor execute as instruções a seguir: 
+O ID do seu computador não é único.Para fazer ser único por favor faça: 
 
     sudo rm /etc/anydesk/service.conf
 
