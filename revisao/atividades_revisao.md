@@ -4,6 +4,38 @@
 Lembre-se de que também existem [as provas e simulados anteriores](./lista_provas_anteriores.md).
 
 
+
+
+
+
+
+## P1 de 2020.2
+
+[https://github.com/Insper-classroom/202_robot_p1](https://github.com/Insper-classroom/202_robot_p1)
+
+
+## P2 de 2020.2
+
+[https://github.com/Insper-classroom/202_robot_p2](https://github.com/Insper-classroom/202_robot_p2)
+
+
+## Sub de 2020.2 
+
+[https://github.com/Insper-classroom/202_robot_sub](https://github.com/Insper-classroom/202_robot_sub)
+
+
+## Delta de 2020.2
+
+[https://github.com/Insper-classroom/202_robot_delta](https://github.com/Insper-classroom/202_robot_delta)
+
+
+
+
+
+
+
+
+
 ## Simulado de 2020.2
 
 Questões
