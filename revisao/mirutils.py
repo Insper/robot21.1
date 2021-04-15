@@ -1,6 +1,9 @@
 # -*- coding:utf-8 -*-
+
+
 import cv2
 import numpy as np
+import matplotlib
 
 def morpho_limpa(mask):
     kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(6,6))
@@ -9,7 +12,7 @@ def morpho_limpa(mask):
     return mask
 
 
-def multiplot(imgs, legenda="No sub"):
+def multiplot(imgs, legenda="No sub", plt=matplotlib.pyplot):
     """ Função que plota várias imagens - só funciona em Juputer (e lab)
     """
     fig, axes = plt.subplots(1,len(imgs), figsize=(24,8))    
@@ -21,7 +24,7 @@ def multiplot(imgs, legenda="No sub"):
     for i in range(len(imgs)):
         axes[i].imshow(cv2.cvtColor(imgs[i], cv2.COLOR_BGR2RGB))
         
-def multiplot_gray(imgs, legenda):
+def multiplot_gray(imgs, legenda, plt=matplotlib.pyplot):
     """ Função que plota n imagens grayscale em linha
          só funciona em Juputer (e lab)
     """
