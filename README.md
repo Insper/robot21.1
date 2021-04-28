@@ -78,3 +78,26 @@ Projeto de 2020.1
 
 [Arquivo de swap - aumentar memória disponível no Linux](./guides/swap.md)
 
+
+# Robôs baratos com ROS
+
+Alguns projetos de robôs baratos para montar com raspberry e arduino e programar em ROS.
+
+[linorobot](https://linorobot.org/)
+
+[hero](https://github.com/verlab/hero_common)
+
+[Jetbot_NVIDIA](https://github.com/NVIDIA-AI-IOT/jetbot)
+
+[Pantech](https://www.pantechsolutions.net/ros-robot)
+
+[Kyrofa](https://kyrofa.com/posts/your-first-robot-a-beginner-s-guide-to-ros-and-ubuntu-core-1-5/)
+
+[Ubuntu Core](https://www.youtube.com/watch?v=KidVVqbsIHI)
+
+[The Constructor](https://www.youtube.com/watch?v=TABVZf5vKVA&t=1251s)
+
+ 
+
+
+
