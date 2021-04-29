@@ -1,17 +1,19 @@
 
 # Projeto 1
 
+Deadline 24/05
 
-Prazo estendido para 16/11. 
+
 
 ```
-   November 2020
-Su Mo Tu We Th Fr Sa
- 1  2  3  4  5  6  7
- 8  9 10 11 12 13 14
-15 16 17 18 19 20 21
-22 23 24 25 26 27 28
-29 30
+      May 2021        
+Su Mo Tu We Th Fr Sa  
+                   1  
+ 2  3  4  5  6  7  8  
+ 9 10 11 12 13 14 15  
+16 17 18 19 20 21 22  
+23 24 25 26 27 28 29  
+30 31 
 
 
 ```
@@ -23,7 +25,7 @@ Su Mo Tu We Th Fr Sa
 
 Robô é capaz de percorer toda a pista e se chocar contra um creeper da cor certa, voltando depois à pista.
 
-No retorno à pista o grupo de alunos não precisa gravar vídeo comprobatório por muito tempo. Apenas o suficiente para demonstrar que o robô encontrou a pista e voltou a executar o código de seguir.
+No retorno à pista apo grupo de alunos não precisa gravar vídeo comprobatório por muito tempo. Apenas o suficiente para demonstrar que o robô encontrou a pista e voltou a executar o código de seguir.
 
 *Conceito B* 
 
@@ -42,15 +44,22 @@ Só pode ter sleep dentro do `while` principal.
 
 Pegar o creeper da cor certa, com o ID certo, e deixar na base certa 
 
-Fazer um dentre os três:
-* Gravar e filmar no robô real funcionado. *lembre-se que o lab só funciona de terça a sexta à tarde*
-* Fazer um controle Proporcional ou PD para manter o robô na pista e fazer funcionar rápido 
+Fazer um dentre os três *especiais*:
+* Gravar e filmar no robô real funcionado (possível apenas em fase amarela)
+* Fazer um controle proporcional ou PD para manter o robô na pista e fazer funcionar rápido baseado no ângulo de visão da pista, mais ou menos como [neste exemplo](https://github.com/Insper/robot21.1/blob/main/aula03/aula03_RegressaoPixelsAmarelos.ipynb)
 * Usar ARUCO em modo 3D 
+* Encontrar os creepers que se encontram fora da pista usando mapeamento ( https://github.com/Insper/404/blob/master/tutoriais/robotica/navigation_gazebo_simulador.md)
 
 Para saber como implementar controle proporcional ou PD se inspire [neste link](https://www.a1k0n.net/2018/11/13/fast-line-following.html)
 
+## Grupos de 4 pessoas 
 
-<img src="./pista_virtual.jpg">
+Os grupos de 4 pessoas terão sempre um conceito deslocado em relacão aos de 3 pessoas.
+
+Para obter A num grupo de 4, é necessário  fazer 3 especiais.
+
+
+<img src="./pista_virtual.png">
 
 
 # Objetivos 
@@ -62,9 +71,9 @@ Estações válidas: `dog`, `cat`, `bicycle` e `bird`
 
 
 
-### Requisitos que precisam ser filmados: 
+### Exemplos de objetivos: 
 
-Os objetivos abaixo são os que precisam ser filmados (um de cada vez). A tupla objetivo pode ser alterada no código, mas todo o resto do código deve ser flexível. 
+Os objetivos abaixo são exemplos de objetivos possíveis.  O seu robô deve ser capaz de realizar *qualquer* objetivo. 
 
 
 ```python
@@ -93,13 +102,13 @@ Comandos para atualizar os repositório
     cd ~catkin_ws/src/my_simulation
     git checkout master
     git pull
-    cd ~catkin_ws/src/robot202
+    cd ~catkin_ws/src/robot21.1
     git pull
 ```
 
 Para executar:
 
-	roslaunch my_simulation pista_s.launch
+	roslaunch my_simulation forca.launch
 
 Para habilitar o controle da garra executar:
 
@@ -109,7 +118,7 @@ Para editar:
 
 Sugerimos que crie um projeto próprio e se baseie no seguinte arquivo:
 
-    catkin_ws/src/robot202/ros/projeto1/scripts/base_proj.py
+    ~/catkin_ws/src/robot21.1/projeto/ros_projeto/scripts
 
 
 Como atividade inicial, sugiro que tente fazer o robô *seguir a pista* . Você pode se basear em sua Atividade 3, ou ainda desenvolver uma abordagem baseada em centro de massa da linha amarela, como [encontrada neste link](https://github.com/osrf/rosbook/blob/master/followbot/follower_color_filter.py)
@@ -122,7 +131,7 @@ Como atividade inicial, sugiro que tente fazer o robô *seguir a pista* . Você 
 
 Exemplo de como programar usando os markers ARUCO 
 
-[https://github.com/Insper/robot202/blob/master/ros/exemplos202/scripts/aruco.py](https://github.com/Insper/robot202/blob/master/ros/exemplos202/scripts/aruco.py)
+[https://github.com/Insper/robot211/blob/master/ros/exemplos211/scripts/aruco.py](https://github.com/Insper/robot211/blob/master/ros/exemplos211/scripts/aruco.py)
 
 # Instruções sobre os tópicos da garra 
 
@@ -157,6 +166,6 @@ Visualizar arvore:
     
 Exemplo de codigo py
 
-[https://github.com/Insper/robot202/blob/master/ros/exemplos202/scripts/move_garra.py](https://github.com/Insper/robot202/blob/master/ros/exemplos202/scripts/move_garra.py)
+[https://github.com/Insper/robot21.1/blob/master/ros/exemplos211/scripts/move_garra.py](https://github.com/Insper/robot21.1/blob/master/ros/exemplos211/scripts/move_garra.py)
 
 
