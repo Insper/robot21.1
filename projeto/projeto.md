@@ -1,7 +1,7 @@
 
 # Projeto 1
 
-Link para o Github Classroom do Projeto: [https://classroom.github.com/g/eU0iKVK-](https://classroom.github.com/g/eU0iKVK-
+Link para o Github Classroom do Projeto: [https://classroom.github.com/g/eU0iKVK-](https://classroom.github.com/g/eU0iKVK-)
 
 Deadline 24/05
 
