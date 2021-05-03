@@ -40,7 +40,7 @@ O código tem que estar bem modularizado
 
 *Conceito A**
 
-Itens do conceito B + um uso de classes e objetos Python    
+Itens do conceito B mais uso de classes e objetos Python (veja nota abaixo).
 
 Só pode ter sleep dentro do `while` principal. 
 
@@ -53,6 +53,16 @@ Fazer um dentre os três *especiais*:
 * Encontrar os creepers que se encontram fora da pista usando mapeamento ( https://github.com/Insper/404/blob/master/tutoriais/robotica/navigation_gazebo_simulador.md)
 
 Para saber como implementar controle proporcional ou PD se inspire [neste link](https://www.a1k0n.net/2018/11/13/fast-line-following.html)
+
+## Uso de classes e objetos
+
+Para atingir o conceito A, o nível de orientação a objetos requerido é haver uma **parte importante** do código bem modularizado em uma classe.
+
+Exemplos de parte importante:
+
+* Subsistema de controlar aproximação com creeper e uso da garra para pegá-lo
+* Subsistema de seguir a linha
+* Subsistema de entregar o creeper na estação
 
 ## Grupos de 4 pessoas 
 
