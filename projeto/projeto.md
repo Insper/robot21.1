@@ -143,7 +143,7 @@ Como atividade inicial, sugiro que tente fazer o robô *seguir a pista* . Você 
 
 Exemplo de como programar usando os markers ARUCO 
 
-[https://github.com/Insper/robot211/blob/master/ros/exemplos211/scripts/aruco.py](https://github.com/Insper/robot211/blob/master/ros/exemplos211/scripts/aruco.py)
+[https://github.com/Insper/robot21.1/blob/master/ros/exemplos211/scripts/aruco.py](https://github.com/Insper/robot21.1/blob/master/ros/exemplos211/scripts/aruco.py)
 
 # Instruções sobre os tópicos da garra 
 
