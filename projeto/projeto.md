@@ -79,7 +79,7 @@ Para obter A num grupo de 4, é necessário  fazer 3 especiais.
 Cores válidas do creeper: blue, green, pink Estações válidas: dog, cat, bicycle e bird
 
 Cores válidas do creeper: `blue`, `orange`, `pink`
-Estações válidas: `dog`, `cat`, `bicycle` e `bird`
+Estações válidas: `dog`, `car`, `cow` e `horse`
 
 
 
