@@ -22,7 +22,7 @@ Se você quiser especificar o nome do arquivo de saída, use a opção `-O nome_
 
 ## Gravar os sensores
 
-Para gravar o input de **todos os sensores**: 
+Para gravar o input de **todos os sensores** (Cuidado, o arquivo final será bem grande!): 
 
     rosbag record -a
 
