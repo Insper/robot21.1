@@ -29,7 +29,9 @@ Para gravar o input de **todos os sensores**:
     rosbag info  ___.bag
 
 
-## Para fazer um replay 
+## Para fazer um replay e republicar os tópicos
+
+Durante o replay **os tópicos são republicados**, como se houvesse um robô real ou simulação rodando.
 
 Para fazer um replay precisamos ter um sistema *ROS* rodando: 
 
@@ -42,6 +44,8 @@ E para fazer o *replay* de fato:
 **Atenção:** Troque o nome `2021-05-13-10-36-22.bag` pelo nome do seu arquivo *bag*. 
 
 Durante o *replay*, os tópicos dos sensores recebem a informação que foi para o *bag file*.
+
+Note que o `rqt_image_view` recebe as imagens como se o *Gazebo* estivesse rodando. 
 
 ![](./rosbag_replay.png)
 
