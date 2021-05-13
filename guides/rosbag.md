@@ -25,8 +25,28 @@ Para gravar o input de **todos os sensores**:
 
 ## Consultar um bag file 
 
+Para consultar o que de fato existe gravado no *bag file*, devemos usar o comando `rosbag info`: 
 
-    rosbag info  ___.bag
+    rosbag info  2021-05-13-10-36-22.orig.bag
+
+No caso o retorno mostra que estavam gravados dados da `/camera/image` e `/scan`:
+
+```bash
+11:15:27 mirwox@ubuntu ~ → rosbag info 2021-05-13-10-36-22.orig.bag
+path:        2021-05-13-10-36-22.orig.bag
+version:     2.0
+duration:    1:23s (83s)
+start:       Dec 31 1969 16:00:58.75 (58.75)
+end:         Dec 31 1969 16:02:22.61 (142.61)
+size:        1.9 GB
+messages:    2655
+compression: none [2235/2235 chunks]
+types:       sensor_msgs/Image     [060021388200f6f0f447d0fcd9c64743]
+             sensor_msgs/LaserScan [90c7ef2dc6895d81024acba2ac42f369]
+topics:      /camera/image   2235 msgs    : sensor_msgs/Image
+             /scan            420 msgs    : sensor_msgs/LaserScan
+```
+
 
 
 ## Para fazer um replay e republicar os tópicos
