@@ -4,7 +4,10 @@ Em robótica é muito comum trabalhar com arquivos de *replay* de inputs sensori
 
 Tipicamente é usado para que seja possível desen
 
-Fonte: [ROS Robot Programming](https://www.robotis.com/service/download.php?no=719), seção 5.4.8.
+Fontes:
+
+[ROS Robot Programming seção 5.4.8](https://www.robotis.com/service/download.php?no=719)
+[Tutorial oficial na Wiki ROS http://wiki.ros.org/rosbag](http://wiki.ros.org/rosbag)
 
 
 ## Para gravar um sensor específico 
