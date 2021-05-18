@@ -44,15 +44,15 @@ Só pode ter sleep dentro do `while` principal.
 
 Pegar o creeper da cor certa, com o ID certo, e deixar na base certa 
 
-Fazer um dentre os três *especiais*:
+Fazer um dentre os cinco *especiais*:
 * Gravar e filmar no robô real funcionado (possível apenas em fase amarela)
 * Fazer um controle proporcional derivativo ou PD para manter o robô na pista e fazer funcionar rápido baseado no ângulo de visão da pista, mais ou menos como [neste exemplo](https://github.com/Insper/robot21.1/blob/main/aula03/aula03_RegressaoPixelsAmarelos.ipynb)
 * Usar ARUCO em modo 3D 
 * Encontrar os creepers que se encontram fora da pista usando mapeamento ( https://github.com/Insper/404/blob/master/tutoriais/robotica/navigation_gazebo_simulador.md)
 * Estruturar o programa com pelo menos um node ROS prestando serviço para o outro. Ver gabarito Q4 da P1
-* 
 
-Para saber como implementar controle proporcional ou PD se inspire [neste link](https://www.a1k0n.net/2018/11/13/fast-line-following.html)
+
+Para saber como implementar controle proporcional derivativo ou PD se inspire [neste link](https://www.a1k0n.net/2018/11/13/fast-line-following.html)
 
 ## Grupos de 4 pessoas 
 
