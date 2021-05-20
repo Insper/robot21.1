@@ -69,6 +69,8 @@ Os grupos de 4 pessoas terão sempre um conceito deslocado em relacão aos de 3 
 
 Para obter A num grupo de 4, é necessário  fazer 3 especiais.
 
+O necessário para conceito B em grupos de 3 representa o conceito C em grupos de 4.
+
 
 <img src="./pista_virtual.png">
 
