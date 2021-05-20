@@ -34,7 +34,7 @@ Pega o creeper da cor e ID corretos com a garra e volta para a pista.
 
 No retorno à pista o grupo de alunos não precisa gravar vídeo comprobatório por muito tempo. Apenas o suficiente para demonstrar que o robô encontrou a pista e voltou a executar o código de seguir.
 
-O código tem que estar bem modularizado 
+O código tem que estar bem modularizado e com comentários. Pelo menos um comentário por função
 
 *Conceito A**
 
