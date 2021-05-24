@@ -59,6 +59,7 @@ Fazer um dentre os cinco *especiais*:
 * Usar ARUCO em modo 3D 
 * Encontrar os creepers que se encontram fora da pista usando mapeamento ( https://github.com/Insper/404/blob/master/tutoriais/robotica/navigation_gazebo_simulador.md)
 * Estruturar o programa com pelo menos um node ROS prestando serviço para o outro. Ver gabarito Q4 da P1
+* Completar e filmar os 3 objetivos usando a pista aleatória: `roslaunch my_simulation forca_random.launch`
 
 
 Para saber como implementar controle proporcional derivativo ou PD se inspire [neste link](https://www.a1k0n.net/2018/11/13/fast-line-following.html)
