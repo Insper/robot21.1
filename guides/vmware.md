@@ -8,9 +8,12 @@ Este guia auxilia quem quer utilizar a maquina virtual com a infra do terceiro s
 ## VM elemrobo-vmware
 
 
-Faça o download da vm elemrobo-vmware através do link:
+Faça o download de todos os arquivos da pasta elemrobo-vmware através do link:
+https://alinsperedu-my.sharepoint.com/personal/arnaldo_junior2_al_insper_edu_br/Documents/elemrobo-vmware
 
+Obs: Para acesso, é necessário e login de aluno Insper.
 
+Link alternativo: https://drive.google.com/drive/folders/1UURs1Hiw8DKKfGWgm3PFBufIF7KdbF8X?usp=sharing
 
 Esse processo pode demorar, ao todo os arquivos tem o tamanho aproximado de 34GB. Por isso, verifique se possui espaço suficiente em seu disco rigido, como sugestão tenha o equivalente a 50GB. 
 
