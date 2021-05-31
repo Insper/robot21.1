@@ -100,6 +100,6 @@ Comente a linha 52 que diz: LIBGL_ALWAYS_SOFTWARE=1 e adicione:
         export SVGA_VGPU10=0
     ''
 
-![ref](img/img11.png)
+![ref](img/img11.jpeg)
 
 Fim.
