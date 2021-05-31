@@ -62,7 +62,11 @@ Acesse a pasta onde esta salvo o download da maquina virtual e selecione o arqui
 
 ![ref](img/img3.png)
 
-Com a VM importada, clique em **Play** para inicializar. 
+Com a VM importada, entre editar configurações clicando com o botão direto em ***elemrobo-vmware*** selecione settings. Configure conforme a imagem  
+
+![ref](img/img10.png)
+
+Clique em **Play** para inicializar. 
 
 ![ref](img/img5.png)
 
@@ -85,5 +89,17 @@ Após alguns instante a tela de login irá aparecer. A senha é **fl1pfl0p**
 
 ![ref](img/img9.png)
 
+Com a VM inicializada, faça o ultimo ajuste. Abra o terminal e edite o arquivo **robotica.sh**
+
+    '' sh
+        code robotica.sh
+    ''
+Comente a linha 52 que diz: LIBGL_ALWAYS_SOFTWARE=1 e adicione:
+   
+   '' sh
+        export SVGA_VGPU10=0
+    ''
+
+![ref](img/img11.png)
 
 Fim.
