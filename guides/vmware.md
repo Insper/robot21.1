@@ -9,7 +9,7 @@ Este guia auxilia quem quer utilizar a maquina virtual com a infra do terceiro s
 
 
 Faça o download de todos os arquivos da pasta elemrobo-vmware através do link:
-https://alinsperedu-my.sharepoint.com/personal/arnaldo_junior2_al_insper_edu_br/Documents/elemrobo-vmware
+https://alinsperedu-my.sharepoint.com/:f:/g/personal/arnaldo_junior2_al_insper_edu_br/EqIQfJbhGoBMlx5Y46imm_QB9QsYAKPwjqd8j6sprRpRHg?e=iF7ktv
 
 Obs: Para acesso, é necessário e login de aluno Insper.
 
