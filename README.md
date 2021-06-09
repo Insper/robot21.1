@@ -68,6 +68,8 @@ Projeto de 2020.1
 
 ## Máquina virtual
 
+[Guia para VMWARE Player](./guides/vmware.md)
+
 [VM sem o SSD físico](./guides/VM_Virtualbox_Infra.pdf)
 
 ## Git

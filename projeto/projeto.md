@@ -21,22 +21,31 @@ Su Mo Tu We Th Fr Sa
 
 # Rubricas
 
-*Conceito C *
+**Conceito C**
 
 Robô é capaz de percorer toda a pista e se chocar contra um creeper da cor certa, voltando depois à pista.
 
 No retorno à pista apo grupo de alunos não precisa gravar vídeo comprobatório por muito tempo. Apenas o suficiente para demonstrar que o robô encontrou a pista e voltou a executar o código de seguir.
 
-*Conceito B* 
+**Conceito B** 
 
 Pega o creeper da cor e ID corretos com a garra e volta para a pista.  
 
 
 No retorno à pista o grupo de alunos não precisa gravar vídeo comprobatório por muito tempo. Apenas o suficiente para demonstrar que o robô encontrou a pista e voltou a executar o código de seguir.
 
-O código tem que estar bem modularizado 
+O código tem que estar bem modularizado e cada função deve estar documentada explicando de forma resumida o que faz, como no gabarito da Q4, ou:
 
-*Conceito A**
+```python
+
+def soma(a,b):
+	“””
+	Retorna a soma de a e b
+	”””
+  	return a + b
+```
+
+**Conceito A**
 
 Itens do conceito B + um uso de classes e objetos Python    
 
@@ -44,19 +53,24 @@ Só pode ter sleep dentro do `while` principal.
 
 Pegar o creeper da cor certa, com o ID certo, e deixar na base certa 
 
-Fazer um dentre os três *especiais*:
+Fazer um dentre os cinco *especiais*:
 * Gravar e filmar no robô real funcionado (possível apenas em fase amarela)
-* Fazer um controle proporcional ou PD para manter o robô na pista e fazer funcionar rápido baseado no ângulo de visão da pista, mais ou menos como [neste exemplo](https://github.com/Insper/robot21.1/blob/main/aula03/aula03_RegressaoPixelsAmarelos.ipynb)
+* Fazer um controle proporcional derivativo ou PD para manter o robô na pista e fazer funcionar rápido baseado no ângulo de visão da pista, mais ou menos como [neste exemplo](https://github.com/Insper/robot21.1/blob/main/aula03/aula03_RegressaoPixelsAmarelos.ipynb)
 * Usar ARUCO em modo 3D 
 * Encontrar os creepers que se encontram fora da pista usando mapeamento ( https://github.com/Insper/404/blob/master/tutoriais/robotica/navigation_gazebo_simulador.md)
+* Estruturar o programa com pelo menos um node ROS prestando serviço para o outro. Ver gabarito Q4 da P1
+* Completar e filmar os 3 objetivos usando a pista aleatória: `roslaunch my_simulation forca_random.launch`
 
-Para saber como implementar controle proporcional ou PD se inspire [neste link](https://www.a1k0n.net/2018/11/13/fast-line-following.html)
+
+Para saber como implementar controle proporcional derivativo ou PD se inspire [neste link](https://www.a1k0n.net/2018/11/13/fast-line-following.html)
 
 ## Grupos de 4 pessoas 
 
 Os grupos de 4 pessoas terão sempre um conceito deslocado em relacão aos de 3 pessoas.
 
 Para obter A num grupo de 4, é necessário  fazer 3 especiais.
+
+O necessário para conceito B em grupos de 3 representa o conceito C em grupos de 4.
 
 
 <img src="./pista_virtual.png">
