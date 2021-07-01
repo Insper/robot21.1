@@ -2,7 +2,7 @@
 
 Em robótica é muito comum trabalhar com arquivos de *replay* de inputs sensoriais.
 
-Tipicamente é usado para que seja possível desen
+Tipicamente é usado para que seja possível desenvolver um algoritmo com modificações frequentes do programa.
 
 Fontes:
 
