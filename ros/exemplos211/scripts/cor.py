@@ -47,7 +47,7 @@ def roda_todo_frame(imagem):
 	try:
 		antes = rospy.Time.now()
 		cv_image = bridge.compressed_imgmsg_to_cv2(imagem, "bgr8")
-		# cv_image = cv2.flip(cv_image, -1) # Descomente se for robo real
+		cv_image = cv2.flip(cv_image, -1) # Descomente se for robo real
 		media, centro, maior_area =  cormodule.identifica_cor(cv_image)
 		depois = rospy.Time.now()
 		cv2.imshow("Camera", cv_image)
@@ -58,7 +58,7 @@ if __name__=="__main__":
 	rospy.init_node("cor")
 
 	# topico_imagem = "/kamera"
-	topico_imagem = "camera/image/compressed" # Use para robo virtual
+	topico_imagem = "/v4l/camera/image_raw/compressed" # Use para robo virtual
 	# topico_imagem = "/raspicam/image_raw/compressed" # Use para robo real
 	
 	# Para renomear a *webcam*

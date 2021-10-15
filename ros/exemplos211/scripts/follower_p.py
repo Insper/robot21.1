@@ -25,7 +25,7 @@ class Follower:
         
         self.bridge = CvBridge()
         self.cv_image = None
-        self.image_sub = rospy.Subscriber('/camera/image/compressed',
+        self.image_sub = rospy.Subscriber('/v4l/camera/image_raw/compressed',
                                             CompressedImage, 
                                             self.image_callback, 
                                             queue_size=4, 
@@ -57,16 +57,19 @@ class Follower:
         
         try:
             cv_image = self.bridge.compressed_imgmsg_to_cv2(msg,desired_encoding='bgr8')
+            cv_image = cv2.flip(cv_image, -1) # Descomente se for robo real
+
             hsv = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
-            lower_yellow = np.array([22, 50, 50],dtype=np.uint8)
-            upper_yellow = np.array([36, 255, 255],dtype=np.uint8)
+            lower_yellow = np.array([12, 50, 50],dtype=np.uint8)
+            upper_yellow = np.array([40, 255, 255],dtype=np.uint8)
             mask = cv2.inRange(hsv, lower_yellow, upper_yellow)
 
             h, w, d = cv_image.shape
             search_top = 3*h/4
             search_bot = 3*h/4 + 20
-            mask[0:search_top, 0:w] = 0
-            mask[search_bot:h, 0:w] = 0
+            mask[0:int(search_top), 0:w] = 0
+            mask[int(search_bot):h, 0:w] = 0
+            
             M = cv2.moments(mask)
 
             if M['m00'] > 0:
